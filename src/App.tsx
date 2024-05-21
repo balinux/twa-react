@@ -16,7 +16,16 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
+    <main className="bg-black mx-auto h-[100vh]">
+      <div className="flex flex-row justify-between items-center p-6">
+        <div className="h-12 w-12 bg-white rounded-full overflow-hidden">
+          <img
+            src="/men-1.jpg"
+            alt="no image"
+            className="w-fit object-cover "
+          />
+        </div>
+      </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -52,7 +61,7 @@ function App() {
           </DialogContent>
         </Dialog>
       </div>
-    </>
+    </main>
   );
 }
 
