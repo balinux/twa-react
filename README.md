@@ -34,3 +34,23 @@ yarn dev --host
 # Referensi design
 
 [ui Design Haircut](https://assets.materialup.com/uploads/9d045287-8845-4192-a7de-776b86828505/attachment.png)
+
+# example code
+
+```TypeScript
+import react, { fc } from 'react'
+
+interface indexprops {
+
+}
+
+const index: fc<indexprops> = ({  }) => {
+  return (
+    <div>
+     index
+    </div>
+  )
+}
+
+export default index;
+```
