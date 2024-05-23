@@ -1,16 +1,16 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./App.css";
 
-import WebApp from "@twa-dev/sdk";
-import { Button } from "./components/ui/button";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "./components/ui/dialog";
+// import WebApp from "@twa-dev/sdk";
+// import { Button } from "./components/ui/button";
+// import {
+//   Dialog,
+//   DialogContent,
+//   DialogDescription,
+//   DialogHeader,
+//   DialogTitle,
+//   DialogTrigger,
+// } from "./components/ui/dialog";
 import Header from "./components/organisms/Header";
 import SearchBar from "./components/organisms/SearchBar";
 import CategoryMenu from "./components/organisms/CategoryMenu";
@@ -18,7 +18,7 @@ import TitleSection from "./components/atom/TitleSection";
 import HomeCardSection from "./components/organisms/HomeCardSection";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <main className="bg-black mx-auto h-[100vh]">
