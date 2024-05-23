@@ -54,3 +54,7 @@ const index: fc<indexprops> = ({  }) => {
 
 export default index;
 ```
+
+# Ui design
+
+[Ui design](https://www.uplabs.com/posts/hair-salon-mobile-app-ui-design)

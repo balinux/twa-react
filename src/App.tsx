@@ -11,13 +11,10 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "./components/ui/dialog";
-import { AiOutlineScissor } from "react-icons/ai";
-import { PiHairDryerFill } from "react-icons/pi";
-import { HiMiniPaintBrush } from "react-icons/hi2";
-import { FaHighlighter } from "react-icons/fa6";
 import Header from "./components/organisms/Header";
 import SearchBar from "./components/organisms/SearchBar";
 import CategoryMenu from "./components/organisms/CategoryMenu";
+import TitleSection from "./components/atom/TitleSection";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -28,10 +25,13 @@ function App() {
       {/* Search card */}
       <SearchBar />
       {/* Categories  */}
-      <div className="text-2xl text-white mx-5 mt-5 mb-5">Categories</div>
+
+      <TitleSection word1="Category" word2="more" />
 
       {/* Category Menu */}
       <CategoryMenu />
+
+      <TitleSection word1="Popular Service" word2="more" />
 
       <div className="card">
         <button
