@@ -38,13 +38,13 @@ yarn dev --host
 # example code
 
 ```TypeScript
-import react, { fc } from 'react'
+import react, { FC } from 'react'
 
 interface indexprops {
 
 }
 
-const index: fc<indexprops> = ({  }) => {
+const index: FC<indexprops> = ({  }) => {
   return (
     <div>
      index
